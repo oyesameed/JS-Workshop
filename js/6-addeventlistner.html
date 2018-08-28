@@ -1,0 +1,38 @@
+<html>
+    <title>Hi</title>
+</html>
+<body>
+        <ul id="list">
+            <li>one</li>
+            <li>two</li>
+            <li>three</li>
+            <li>four</li>
+            <li>five</li>
+        </ul>
+     <h4 id="headline">Hey</h4>
+    <ul id="list1">
+            <li>one</li>
+            <li>two</li>
+            <li>three</li>
+            <li>four</li>
+            <li>five</li>
+            <li>six</li>
+        </ul>
+      <script>
+    var lol2=document.getElementById("headline");
+    var lol=document.getElementById("list").getElementsByTagName("li");
+    var lol1=document.getElementById("list1").getElementsByTagName("li");
+for(i=0;i<lol.length;i++)
+            {       
+    lol[i].innerHTML="index >> " + i;
+            }
+    for(i=0;i<lol1.length;i++)
+            {           
+ lol1[i].addEventListener("click",activateIt2);
+            }
+          function activateIt2()
+          {
+ lol2.innerHTML=this.innerHTML;
+          }
+    </script>
+</body>

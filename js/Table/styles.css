@@ -1,0 +1,12 @@
+body
+{
+	height: 100%;width: 100%;background-color: yellow;
+}
+#haha
+{
+    color: yellow; 
+    font-size: 25px; 
+    background-color: black;
+    border-radius: 0.5em;
+    width: 12em;
+}

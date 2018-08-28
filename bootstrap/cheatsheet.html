@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Navbar</title>
+    </head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="animate.min.css" type="text/css" rel="stylesheet">
+      
+    <body>
+        
+<div id="myNavbar" class="navbar navbar-inverse navbar-fixed-top" role="navigation" >
+            <div class="conatiner">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    <a href="#" class="navbar-brand">Cheatsheet</a>
+                </div>
+                <!--Navbar-header-->
+                <div class="collapse navbar-collapse" id="navbar-collapse">
+                    <ul class="nav navbar-nav">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#gallery">Gallery</a></li>    
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#contactUs">Contact Us</a></li>    
+                    </ul>        
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="jumbotron text-center">
+            <div class="container">
+            <h1 class="wow fadeIn" data-wow-delay="2s">Welcome</h1>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                <div class="btn btn-primary" role="button">LOL</div>
+            </div>
+        
+        </div>
+
+<!--typography-->
+        <div class="container">
+            <h1 class="page-header">Hello World! <small>Secondary text</small></h1>
+            <p class="lead">
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+            </p>
+            <p>
+            <mark>'Content here, content here', making</mark> it look like readable English. <del>Many desktop</del> publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for <u>'lorem ipsum'</u> will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+            </p>
+        <hr>
+<!--        allingment & tranformation-->
+        <p class="text-left text-uppercase">left</p>
+        <p class="text-center text-capitalize">center</p>
+        <p class="text-right">right</p>
+        <p class="text-justify">justified</p>
+        <p class="text-nowrap">no wrap</p>
+<!--        quick floats-->
+        
+        <div class="pull-right">div floated right</div>
+        <div class="pull-left">div floated left</div>
+        
+        
+        <hr>
+<!--            clear float-->
+        <div class="clear-fix"></div>
+        
+        <hr>
+<!--            blockquote-->
+        <blockquote class="blockquote">
+            <p>
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+            </p>    
+            <footer>quote by <cite title="Sameed">Sameed</cite></footer>
+        </blockquote>    
+<!--            blockquote reverse-->
+        <blockquote class="blockquote-reverse">
+            <p>
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+            </p>    
+            <footer>quote by <cite title="Sameed">Sameed</cite></footer>
+        </blockquote>   
+<!--        lists-->
+            <ul class="list-unstyled">
+                <li>a</li>
+                <li>a</li>
+                <li>a</li>
+                <li>a</li>
+            </ul>
+            
+            <ul class="list-inline">
+                <li>a</li>
+                <li>a</li>
+                <li>a</li>
+                <li>a</li>
+            </ul>
+            
+            <!--code-->
+            <code>&lt;h1&gt;heading text&lt;/h1&gt; </code>
+            
+            <br>
+            Change directory with <kbd>cd</kbd>
+            <br>
+            To edit settings,press <kbd><kbd>ctrl</kbd> + <kbd>.</kbd></kbd>
+            <hr>
+<!--Contextual colors-->
+            <p class="text-primary">hello primary</p>
+            <p class="text-success">hello primary</p>
+            <p class="text-info">hello primary</p>
+            <p class="text-warning">hello primary</p>
+            <p class="text-danger">hello primary</p>
+            <p class="text-muted">hello primary</p>
+            
+            
+<!--Contextual Background colors-->
+            <p class="bg-primary">hello primary</p>
+            <p class="bg-success">hello primary</p>
+            <p class="bg-info">hello primary</p>
+            <p class="bg-warning">hello primary</p>
+            <p class="bg-danger">hello primary</p>
+            <p class="bg-muted">hello primary</p>            
+            <hr>
+            <hr>
+            <hr>
+            <hr>
+            
+        
+        </div>
+        
+        
+        
+        
+        <div class="container">
+<!--buttons-->
+        <button class="btn btn-default">Button</button>
+        <a href="#" class="btn btn-primary" role="button" >Button</a>
+        <input type=submit class="btn btn-info"
+        value="submit">
+        <button class="btn btn-warning">Button</button>
+        <a href="#" class="btn btn-danger" role="button" >Button</a>
+        <input type=submit class="btn btn-success"
+        value="submit">
+        <button class="btn btn-lg btn-default">Button</button>
+        <a href="#" class="btn btn-sm btn-primary" role="button" >Button</a>
+        <input type=submit class="btn btn-link"
+        value="link ">
+        
+        </div>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        
+        <hr>
+        <hr>
+        
+<!--forms-->
+        <div class="container">
+        <form>
+            <div class="form-group">
+            <label>Name</label>
+                <input class="form-control" type="text" placeholder="Name">
+            </div>
+            <div class="form-group">
+            <label>Email</label>
+                <input class="form-control" type="email" placeholder="Email">
+            </div>
+            <div class="form-group">
+            <label>Phone No</label>
+                <input class="form-control" type="numbers" placeholder="Phone No">
+            </div>
+            <div class="form-group">
+            <label>Message</label>
+                <textarea class="form-control"  placeholder="Your message here"></textarea>
+            </div>
+            <div class="form-group">
+            <label>Gender</label>
+                <select class="form-control">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                </select>
+            </div>
+            <div class="form-group">
+            <label>Upload file</label>
+            <input type="file">
+            <p class="help-block">Only jpg</p>
+            </div>
+            <div class="checkbox">
+            <label>
+                <input type="checkbox">Check me Out
+                </label>
+            </div>
+        </form>
+        
+            <hr><hr><hr><hr>     
+            
+        </div>
+        
+<!--table-->
+        <div class="container">
+            <table class="table table-striped table-bordered table-hover table-condensed">
+                <tr>
+                    <th>abcd</th>
+                    <th>abcd</th>
+                    <th>abcd</th>
+                    <th>abcd</th>
+                    <th>abcd</th>
+                </tr>
+                <tr>
+                    <td>abcd</td>
+                    <td>abcd</td>
+                    <td>abcd</td>
+                    <td>abcd</td>
+                    <td>abcd</td>
+                </tr>
+                <tr>
+                    <td>abcd</td>
+                    <td>abcd</td>
+                    <td>abcd</td>
+                    <td>abcd</td>
+                    <td>abcd</td>
+                </tr>
+                <tr>
+                    <td>abcd</td>
+                    <td>abcd</td>
+                    <td>abcd</td>
+                    <td>abcd</td>
+                    <td>abcd</td>
+                </tr>
+            
+            
+            
+            
+            </table>
+        
+        </div>
+        <hr>
+        <hr>
+<!--lists-->
+<p> dumb </p>
+        <div class="container">
+            <ul class="list-group">
+            <li class="list-group-item">abc</li>
+            <li class="list-group-item">abc</li>
+            <li class="list-group-item">abc</li>
+            <li class="list-group-item">abc</li>
+            
+            </ul>
+            <hr>
+<!--lists with a tag-->
+        <ul class="list-group">
+            <a href="#" class="list-group-item active" >abc</a>
+            <a href="#" class="list-group-item list-group-item-success">abc</a>
+            <a href="#" class="list-group-item">abc</a>
+            <a href="#" class="list-group-item disabled">abc</a>
+            </ul>
+        </div>
+        
+        <hr>
+        <hr>
+<!--panels-->
+        <div class="container">
+            <div class="panel panel-danger">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Panel Title</h3>
+                </div>
+                <div class="panel-body">
+                    panel content is here
+                </div>
+                <div class="panel-footer">
+                panel footer
+                </div>
+            
+            </div>
+        
+        
+        </div>
+        <hr>
+        <hr>
+<!--wells-->
+        <div class="container">
+            <div class="well">
+                Well 1
+            </div>
+            <div class="well well-lg">
+                Well 2
+            </div>
+            <div class="well well-sm">
+                Well 3
+            </div>
+        </div>
+<!--alerts-->
+        <hr>
+        <hr>
+        <div class="container">
+            <div class="alert" role="alert">
+            Alert
+            </div>
+            <div class="alert alert-success" role="alert">
+            Alert
+            </div>
+            <div class="alert alert-warning " role="alert">
+            Alert
+            </div>
+            <div class="alert alert-danger" role="alert">
+            Alert
+            </div>
+            
+<!--            closeable alert-->
+            <div class="alert alert-warning alert-dismissible" role="alert">
+            <button type="button" class="close" data-dismiss="alert"><span>&times; <!--its for icon -->
+                </span></button>
+            </div>
+        </div>
+        
+<!--Progress Bars-->
+        <div class="container">
+            <div class="progress">
+                <div class="progress-bar progress-bar-success progress-bar-striped active" style="width: 50%;">50%</div>
+            </div>
+        </div>
+    <hr>
+        <hr>
+        
+<!--LABEls-->       
+<div class="container">
+        <span class="label label-default">Default</span>
+        <h1>Hello <span class="label label-primary">Primary</span></h1>
+        <span class="label label-primary">Default</span>
+        <span class="label label-success">Default</span>
+        <span class="label label-info">Default</span>
+        <span class="label label-danger">Default</span>
+        
+        </div>
+        
+<!--Badges-->
+        
+        <hr>
+        <hr>
+        <div class="container">
+            <a href="#">Inbox<span class="badge">50</span></a>
+            <button class="btn btn-warning">Messages     <span class="badge">33</span></button>
+        
+        </div>
+        
+<hr>
+        <hr>
+        
+        
+<!--IMAGES-->
+        <div class="container  wow slideInLeft">
+            <img class="thumbnail" src="a.jpg" style="height: 300px; width: 350px;">
+            <img class="img-rounded"  style="height: 200px; width: 250px;" src="a.jpg">
+            <img class="img-circle"  style="height: 100px; width: 150px;" src="a.jpg">
+        
+        
+        </div>
+        
+        <hr>
+        <hr>
+<!--GRID SYSTEM-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a 
+                </div>
+                <div class="col-md-4">
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a 
+                </div>
+            </div>
+            <hr>
+            <hr>
+             <div class="row">
+                <div class="col-md-3">
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a 
+                </div>
+                <div class="col-md-3">
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a 
+                </div>
+                 <div class="col-md-3">
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a 
+                </div>
+                <div class="col-md-3">
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a 
+                </div>
+            </div>
+            
+            
+            <hr>
+            <hr>
+             <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-6">
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a 
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-6">
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a 
+                </div>
+            </div>
+            
+        </div>
+        
+        
+<!--ANOther GRID-->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <h3>lolol</h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                    'Content here, content here', making it look like readable English.looking at its layout.
+                    'Content here, content here', making it look like readable English.
+                    looking at its layout.
+                    'Content here, content here', making it look like readable English.</p>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <h3>lolol</h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                    'Content here, content here', making it look like readable English.</p>
+                </div>
+
+                <div class="clearfix visible-sm"></div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <h3>lolol</h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                    'Content here, content here', making it look like readable English.</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <h3>lolol</h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                    'Content here, content here', making it look like readable English.</p>
+                </div>
+            </div>
+            
+        <div class="well hidden-sm hidden-md hidden-lg">
+            <p>screen is less then 768 px</p>
+            </div>   
+        <div class="well  hidden-md hidden-lg">
+            <p>screen is less then 768 px</p>
+        </div>   
+        
+        <div class="well  hidden-lg">
+            <p>screen is less then 768 px</p>
+            </div>   
+        <div class="well">
+            <p>screen is less then 768 px</p>
+            </div>   
+            <hr>
+            <hr>
+            
+            <div class="row">
+                <div class="col-md-6 col-md-offset-6">
+                <table class="table table-striped table-bordered table-hover table-condensed">
+                <tr>
+                    <th>abcd</th>
+                    <th>abcd</th>
+                    <th>abcd</th>
+                    <th>abcd</th>
+                    <th>abcd</th>
+                </tr>
+                <tr>
+                    <td>abcd</td>
+                    <td>abcd</td>
+                    <td>abcd</td>
+                    <td>abcd</td>
+                    <td>abcd</td>
+                </tr>
+                <tr>
+                    <td>abcd</td>
+                    <td>abcd</td>
+                    <td>abcd</td>
+                    <td>abcd</td>
+                    <td>abcd</td>
+                </tr>
+                <tr>
+                    <td>abcd</td>
+                    <td>abcd</td>
+                    <td>abcd</td>
+                    <td>abcd</td>
+                    <td>abcd</td>
+                </tr>
+      
+            </table>
+                </div>
+            
+            </div>
+
+        </div>
+
+        
+          <script src="wow.min.js"></script>
+            <script>
+              new WOW().init();
+              </script>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </body>
+</html>

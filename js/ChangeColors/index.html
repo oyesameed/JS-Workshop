@@ -1,0 +1,27 @@
+<html>
+    <title>
+        Colors
+    </title>
+    <body>
+    <script>
+    var div=document.createElement('div');
+    div.style.height='100vh';
+document.body.appendChild(div);
+div.addEventListener('mousemove',function(e)
+        {
+            var x=e.clientX;
+            var y=e.clientY;
+            div.textContent=x+' , '+y;
+        div.style.color='rgb('+y+','+x+',0)';
+       div.style.fontSize='5em';
+ div.style.textAlign='center';
+div.style.backgroundColor='rgb('+x+','+y+',100)';
+        });
+div.addEventListener('mouseout',function(e)
+{
+div.style.backgroundColor='white';
+				})
+        </script>
+    </body>
+    
+</html>

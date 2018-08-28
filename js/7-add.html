@@ -1,0 +1,20 @@
+<html>
+<head>
+    <title>Javascript</title>
+    </head>
+    <script>
+        function addThese()
+        {
+            var one = parseInt(document.getElementById("in1").value);
+            var two = parseInt(document.getElementById("in2").value);
+            var sum = one+two;
+            document.getElementById("in3").value= sum;
+        }
+    </script>
+    <body>
+    <input type="number" id="in1" value="0">
+    <input type="number" id="in2" value="0">
+    <button onclick="addThese()">Add</button>
+    <input type="number" id="in3" value="0">
+    </body>
+</html>

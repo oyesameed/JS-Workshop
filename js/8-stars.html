@@ -1,0 +1,22 @@
+<html>
+    <head>
+    
+    </head>
+    <body>
+        <input type="number" id="one" value="">
+        <button type="button" onclick="printIt()" >Check!</button>
+        <p  id="para">Your stars here.</p>
+        <script>
+            function printIt()
+            {
+                var x=document.getElementById('one').value;
+                var lol=" ";
+                for(var i=0; i<x; i++)
+                    {
+                        lol=lol+"<br>"+" * ";
+                    }
+                document.getElementById('para').innerHTML=lol;
+            }
+        </script>
+    </body>
+</html>

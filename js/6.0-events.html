@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <script type="text/javascript">
+        function myfunction()
+            {
+    var elem=document.getElementById("demo1");
+    elem.innerHTML="Hey!";
+            }
+        </script>
+    </head>
+    <body>
+    <h3>Inline JS</h3>
+    <p  onmouseover="this.style.color='red'" onmouseout="this.style.color='black'">Mouse over me!</p>
+    <p onclick="this.innerHTML='You changed me :( '">Click me!</p>
+    <h3>Internal JS</h3>
+    <p id="demo1"></p>
+    <p onclick="myfunction()" style="background-color: yellowgreen">Click me to see the magic !</p>
+        <h3 >External JS</h3>
+        <p onclick="myfunction2()">Click me!</p>
+        <h3 id="demo2">Look here!</h3>
+<!--        WE CAN PUT THE SCRIPT IN THE BODY TOO   -->
+<script src="../Sources/js/events.js"></script>
+    </body>
+    
+</html>

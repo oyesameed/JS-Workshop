@@ -1,0 +1,31 @@
+
+<html>
+<body>
+
+<h2>For Loop</h2>
+
+<p id="demo"></p>
+    <h2>While Loop</h2>
+    
+<p id="demo1"></p>
+
+<script>
+    var cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
+    var text = "";
+    var i;
+    for (i = 0; i < cars.length; i++) {
+        text += cars[i] + "<br>";
+    }
+    document.getElementById("demo").innerHTML = text;
+
+        text = "";
+    var i = 0;
+    while (i < 10) {
+        text += "<br>The number is " + i;
+        i++;
+    }
+    document.getElementById("demo1").innerHTML = text;
+</script>
+
+</body>
+</html>

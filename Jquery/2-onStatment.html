@@ -1,0 +1,48 @@
+<html>
+    <head>
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>  
+        $(document).ready(function(){
+            $("p").on("click", function(){
+            $(this).hide();
+            });
+            
+            $("h3").on({
+                mouseenter: function(){
+            $(this).css("background-color", "lightgray");
+            }, 
+                mouseleave: function(){
+            $(this).css("background-color", "lightblue");
+            }, 
+                click: function(){
+            $(this).css("background-color", "yellow");
+            } 
+            });
+            
+            
+//             $("h4").on("click",function(){
+//               alert($("h4").html);
+//                });
+        });
+        </script>
+    </head>
+    
+    <body>
+    
+    <p>If you click on me, I will disappear.</p>
+    <p>Click me away!</p>
+    <p>Click me too!</p>
+    
+        
+    <h3>Click and move the mouse pointer over me!</h3>
+    
+    <h4>It's an h4</h4>
+    
+    
+    
+    
+    
+    
+    
+    </body>
